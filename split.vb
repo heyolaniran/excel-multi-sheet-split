@@ -3,7 +3,7 @@ Sub SplitEachSheet()
     Dim FilePath As String 
 
     'Get Current Dir of your multiSheet excel File'
-    FilePath = Application.ActiveWorkbook.FilePath
+    FilePath = Application.ActiveWorkbook.Path
 
     Application.ScreenUpdating = False
     Application.DisplayAlerts = False 
